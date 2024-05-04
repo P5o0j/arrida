@@ -1,0 +1,55 @@
+/***** NAVIGATION *****/
+nav button {
+  display: none;
+}
+
+nav ul {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+nav a {
+  padding: 0 5px 10px 5px;
+}
+
+nav li {
+  float: left;
+  padding: 0 15px 0 15px;
+  vertical-align: text-top;
+}
+
+nav li:hover {
+  //   background-color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 5px #054a29;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+nav li.active {
+  border-bottom: 3px solid #054a29;
+  text-decoration: none;
+}
+.nav-row {
+  justify-content: space-evenly;
+}
+
+.row1 {
+  // padding: 20px;
+  width: 80%;
+}
+
+nav a {
+  font-size: medium;
+}
+.nav-links {
+  width: 100%;
+}
+.logo {
+  width: 250px;
+}
+
+/***** MAIN *****/
+main {
+  margin: 0 5%;
+}

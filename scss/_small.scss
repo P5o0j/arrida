@@ -1,0 +1,80 @@
+/***** NAVIGATION *****/
+// mobile styling
+button#hamburgerBtn {
+  background: none;
+  border: none;
+  color: #054a29;
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 0 30px 0 2vw;
+  float: right;
+}
+
+nav {
+  //   background-color: $primaryColor;
+  // width: 100%;
+  //   border: 1px;
+  // font-family: "Playpen Sans", cursive;
+  font-family: "Nova Square", sans-serif;
+  font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 100%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  padding: 0.8rem 0;
+  color: #137547;
+  text-align: right;
+  text-decoration: none;
+}
+
+nav li.active {
+  //   background-color: rgb(0, 0, 0);
+  // font-size: 125%;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  // background-color: rgb(201, 201, 201);
+  font-size: x-large;
+}
+
+nav ul.open {
+  display: block;
+}
+
+nav ul {
+  display: none;
+}
+.nav-row {
+  display: flex;
+  // align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.logo {
+  width: 150px;
+  // padding: 10px;
+}
+.flag {
+  width: 35px;
+}
+.nav-links {
+  padding-right: 15px;
+}
+
+/***** MAIN *****/
+main {
+  margin: 0 10%;
+}
