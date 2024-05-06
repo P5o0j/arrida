@@ -53,3 +53,15 @@ nav a {
 main {
   margin: 0 5%;
 }
+
+/***** FOOTER *****/
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-one,
+.footer-two,
+.footer-three {
+  width: 32%;
+}
